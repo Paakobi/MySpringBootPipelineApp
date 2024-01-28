@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/news")
-public class NewController {
+public class NewsController {
 
 	
 	@GetMapping("/headline")
